@@ -13,12 +13,9 @@ import axios from 'axios';
 import { format } from 'date-fns';
 import { datas } from '../../../data';
 
-import useScreenSize from '../../../../hooks/useScreenSize';
-
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
 export const BarChart = () => {
-  const { width, height } = useScreenSize();
 
   const { theme } = useContext(ThemeContext);
   const [chartData, setChartData] = useState({

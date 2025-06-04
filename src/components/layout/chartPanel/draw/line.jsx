@@ -134,7 +134,7 @@ const LineChart = () => {
 
 
       <div>
-        <div style={{ width: '100%', height: '40vh' }}>
+        <div style={{ width: '100%', height: '38vh' }}>
           <Line
             data={chartJsData}
             options={{ ...datas.chartData[1].options(theme) }}
