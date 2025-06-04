@@ -1,0 +1,347 @@
+/* Desktop and Large Screens */
+@media screen and (min-width: 1024px) {
+    header .main-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .road-map .road-map-main {
+        padding: 0 171px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px !important;
+    }
+
+    .road-map .road-map-main {
+        padding: 0 251px;
+    }
+}
+
+/* Large Screens */
+@media screen and (max-width: 1440px) {
+    .allow .numbers {
+        padding: 51px 80px 0 90px;
+    }
+
+    .wallet .wallet-main {
+        padding: 58px 72px 24px;
+    }
+}
+
+/* Medium Screens */
+@media screen and (max-width: 1280px) {
+    .network #network {
+        padding: 0 32px;
+    }
+
+    .road-map .road-map-main {
+        padding: 0 93px;
+    }
+
+    .allow .numbers {
+        padding: 51px 0;
+    }
+
+    .road-map .road-map-main .box-roadmap {
+        width: 280px;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media screen and (max-width: 1024px) {
+    #network .box {
+        width: 250px;
+    }
+
+    .network #network {
+        height: 750px;
+    }
+
+    .road-map .road-map-main {
+        padding: 0 35px;
+    }
+
+    .road-map .road-map-main .box-roadmap {
+        width: 240px;
+    }
+
+    .wallet-main-text {
+        font-size: 12px;
+    }
+
+    .wallet-small-text {
+        font-size: 8px;
+    }
+
+    /* Roadmap connectors */
+    .road-map .road-map-main .box-roadmap.left::after {
+        right: -111px;
+    }
+
+    .road-map .road-map-main .box-roadmap.right::after {
+        left: -111px;
+    }
+
+    .road-map .road-map-main .box-roadmap.left::before {
+        right: -78px;
+    }
+
+    .road-map .road-map-main .box-roadmap.right::before {
+        left: -78px;
+    }
+}
+
+/* Landscape Tablets */
+@media screen and (max-width: 875px) {
+    .road-map .road-map-main {
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .road-map .road-map-main .box-roadmap {
+        margin: 0 0 30px;
+    }
+
+    .road-map .road-map-main .box-roadmap::before,
+    .road-map .road-map-main .box-roadmap::after {
+        display: none;
+    }
+
+    .road-map .road-map-main::before,
+    .road-map .road-map-main::after {
+        left: 100%;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 767px) {
+    .banner>div {
+        background-image: url('../media/network_opacity.png');
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .what-is .box-title h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .what-is .box>div {
+        padding: 14px 70px;
+    }
+
+    .what-is .box,
+    .what-is .box:nth-child(2) {
+        padding: 4px 0;
+    }
+
+    .what-is .boxes {
+        margin: 40px 0 35px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .some-content {
+        padding: 32px 42px !important;
+    }
+
+    #join-btn {
+        border-radius: 30px;
+        padding: 14px 18px;
+    }
+
+    .meet .right>div {
+        padding: 38px;
+    }
+
+    .meet .right>div,
+    .meet .left>div {
+        min-height: auto;
+    }
+
+    .updates .box>div {
+        padding: 36px;
+    }
+
+    .explore .box>div {
+        padding: 20px 22px 20px 30px;
+    }
+
+    .footer .footer-right>div {
+        width: 50%;
+        margin-top: 36px;
+    }
+}
+
+/* Large Mobile */
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .banner h2.title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 8px 10px;
+    }
+
+    .what-is .boxes {
+        margin: 30px 0 25px;
+    }
+
+    .usecase .menu-tab {
+        margin-bottom: 40px;
+    }
+
+    .chat-label {
+        display: block;
+    }
+
+    .flat-toggle {
+        padding: 16px 38px 14px 22px;
+    }
+
+    .flat-toggle .toggle-title {
+        font-size: 18px;
+    }
+
+    .flat-toggle .toggle-content {
+        font-size: 13px;
+    }
+
+    .road-map .road-map-main {
+        padding: 0 6px;
+    }
+
+    .wallet .wallet-main {
+        padding: 32px 48px 16px;
+    }
+
+    .portal .chart-panel .chart-state-field .state>span {
+        font-size: 9px;
+    }
+
+    .portal .chart-panel .chart-state-field .state {
+        padding: 3px 5px;
+    }
+
+    .portal .chart-panel .chart-state-field .state>button {
+        padding: 3px 4px;
+        font-size: 12px;
+    }
+
+    .heading h1 {
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .staking-box .box {
+        padding: 22px 26px;
+    }
+
+    .footer .toggle-list {
+        grid-template-columns: auto auto;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    a.btn {
+        padding: 8px 14px;
+    }
+
+    a.btn span {
+        font-size: 14px;
+    }
+
+    .questions .icons {
+        margin-left: 6px;
+    }
+
+    .globe .box {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .what-is .box-title h3 {
+        font-size: 12px;
+    }
+
+    .offering .document-box .content .content-detail p {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .offering .document-box .content .content-detail a.btn {
+        padding: 11px 20px;
+    }
+
+    .chat-label.rewards,
+    .chat-label.presale {
+        top: 39%;
+    }
+
+    .road-map .road-map-main .box-roadmap {
+        width: 80%;
+    }
+
+    .wallet .wallet-main {
+        padding: 20px 24px 12px;
+    }
+
+    .footer .footer-left {
+        width: 100%;
+    }
+
+    .explore .box>div {
+        padding: 24px 20px 24px 34px !important;
+    }
+
+    .kit .box .head {
+        padding: 14px 20px !important;
+    }
+
+    .kit .box .main {
+        padding: 22px 20px !important;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 380px) {
+    .offering .document-box {
+        padding: 34px 0 0 54px;
+    }
+
+    .offering .document-box .title {
+        margin-left: -22px;
+    }
+
+    .footer .footer-right>div {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .footer .footer-right ul {
+        padding-top: 0 !important;
+    }
+
+    .footer .footer-right li {
+        margin-top: 12px;
+    }
+
+    .footer .toggle-list {
+        grid-template-columns: auto;
+    }
+}
